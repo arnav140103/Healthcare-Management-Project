@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+  body{
+    background: url(home-bg-image.jpg);
+    background-size: cover;
+  }
+
+  .main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+
+  nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .logo{
+    flex-basis: 20%;
+  }
+
+  .logo img{
+    width: 150px;
+  }
+
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+
+  .nav-links ul li a{
+    color:black;
+    padding: 6px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+
+  .nav-links ul li a:hover{
+    background: #010C80 ;
+    color:#fff
+  }
+  
+  .boxContainer{
+    margin: auto;
+    margin-top: 20%;
+    position: relative;
+    width: 300px;
+    height: 42px;
+    border: 4px solid #2980b9;
+    padding: 0px 10px;
+    border-radius: 50px;
+    background: transparent;
+  }
+
+  .elementsContainer{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+  }
+
+  .search{
+    border: none;
+    height: 100%;
+    width: 100%;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: "Nunito";
+    font-weight: 500;
+    background: transparent;
+  }
+
+  .search:focus{
+    outline: none;
+  }
+
+  .material-icons{
+    font-size: 26;
+    color: #2980b9;
+
+  }

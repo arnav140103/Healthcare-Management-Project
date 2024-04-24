@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  .main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo{
+    flex-basis: 20%;
+  }
+  
+  .logo img{
+    width: 150px;
+  }
+  
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .nav-links ul li a{
+    color:black;
+    padding: 6px 16px;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+  
+  .nav-links ul li a:hover{
+    background: #010C80 ;
+    color:#fff
+  }
+  
+  .box1{
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    max-width: 443px;
+    height: 213px;
+    left: -100px;
+    top: 50px;
+    background: #D1EFFF;
+    border: 3px solid #0E3DE2;
+    border-radius: 10px;
+  }
+  .box1 a{
+    position: absolute;
+    width: 264px;
+    height: 142px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    text-decoration: none;
+  }
+  .box1 img{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 300px;
+    top: 50px;
+  }
+  
+  .box2{
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 213px;
+    left: 390px;
+    top: 50px;
+    background: #C8FFCD;
+    border: 3px solid #0EE23D;
+    border-radius: 10px;
+  }
+  .box2 a{
+    position: absolute;
+    width: 264px;
+    height: 142px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    text-decoration: none;
+  }
+  .box2 img{
+    position: absolute;
+    width: 100px;
+    height: 106px;
+    left: 300px;
+    top: 50px;
+  }
+  
+  .box3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 213px;
+    left: 880px;
+    top: 50px;
+    background: #D1FFE9;
+    border: 3px solid #0EE2C9;
+    border-radius: 10px;
+  }
+  .box3 a{
+    position: absolute;
+    width: 264px;
+    height: 142px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    text-decoration: none;
+  }
+  .box3 img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 300px;
+    top: 50px;
+  }
+  
+  .box4{
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 213px;
+    left: -100px;
+    top: 350px;
+    background: #FFFDD1;
+    border: 3px solid #E29A0E;
+    border-radius: 10px;
+  }
+  .box4 a{
+    position: absolute;
+    width: 264px;
+    height: 142px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    text-decoration: none;
+  }
+  .box4 img{
+    position: absolute;
+    width: 100px;
+    height: 80px;
+    left: 300px;
+    top: 50px;
+  }
+  
+  .box5{
+    box-sizing: border-box;
+    position: absolute;
+    width: 443px;
+    height: 213px;
+    left: 390px;
+    top: 350px;
+    background: #E8D1FF;
+    border: 3px solid #C50EE2;
+    border-radius: 10px;
+  }
+  .box5 a{
+    position: absolute;
+    width: 264px;
+    height: 142px;
+    left: 30px;
+    top: 70px;
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43px;
+    color: #333333;
+    text-decoration: none; 
+    }
+    .box5 img{
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      left: 300px;
+      top: 50px;
+    }
+  
+    .box6{
+      box-sizing: border-box;
+      position: absolute;
+      width: 443px;
+      height: 213px;
+      left: 880px;
+      top: 350px;
+      background: #FFE5D1;
+      border: 3px solid #E2410E;
+      border-radius: 10px;
+    }
+    .box6 a{
+      position: absolute;
+      width: 264px;
+      height: 142px;
+      left: 30px;
+      top: 50px;
+      font-family: 'Itim';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 43px;
+      color: #333333;
+      text-decoration: none;
+    }
+    .box6 img{
+      position: absolute;
+      width: 100px;
+      height: 80px;
+      left: 300px;
+      top: 60px;
+    }
+  
+  
+  
